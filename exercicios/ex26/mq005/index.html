@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>SITE RESPONSIVO</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <nav id="itens">
+            <ul>
+                <li><a href="">Opção 1</a></li>
+                <li><a href="">Opção 2</a></li>
+                <li><a href="">Opção 3</a></li>
+                <li><a href="">Opção 4</a></li>
+                <li><a href="">Opção 5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Os textos jornalísticos são os textos veiculados pelos jornais, revistas, rádio e televisão, os quais possuem o intuito de comunicar e informar sobre algo.
+
+                Nos dias atuais, o texto jornalístico é provavelmente o gênero textual mais lido, pois possui o maior alcance nos diversos setores da sociedade.
+                
+                Uma característica importante dos textos jornalísticos é sua efemeridade, visto que favorecem o conhecimento de informações atuais com o propósito de difundir o que acontece de novo.</p>
+            <p>A linguagem jornalística é em prosa e deve ser clara, simples, imparcial e objetiva de modo a expor para o emissor as informações mais relevantes sobre o tema.
+
+                O jornalista possui a função de “traduzir” e transmitir as informações para o público em geral, utilizando um método de desenvolvimento textual baseado no critério básico ao responder às perguntas
+
+                No tocante à sua estrutura gramatical, normalmente o texto jornalístico apresenta frases curtas e ideias sucintas, as quais favorecem a objetividade do texto.
+                
+                Além disso, trabalham com o recurso das repetições que auxiliam na memorização e assimilação das informações. O mais comum é o uso da ordem direta nas construções frasais, ou seja: sujeito + verbo + complementos e adjuntos adverbiais.
+                
+                Esses textos possuem uma linguagem denotativa, ou seja, isenta de ambiguidades e que possui um único sentido,
+                
+                Aqui, vale lembrar que o jornal é um veículo portador de diferentes gêneros textuais. Portanto, eles podem apresentar uma linguagem conotativa (figurada), na medida em que desenvolve os diversos tipos de textos</p>
+            <p>Um recurso jornalístico muito utilizado é o “lide” (forma aportuguesada) ou “lead” (no inglês), que significa “guia”, “principal”, “liderança” ou “o que vem à frente”.
+
+                O “lide” representa a primeira parte do texto jornalístico que se encarrega de apresentar as principais informações da matéria, essenciais para destacar “aos olhos do leitor” o acesso à informação.
+                
+                Assim, o “lide” é um recurso jornalístico essencial e que deve ser bem elaborado, objetivo e coerente. Isso porque favorece o interesse do leitor, sendo comum que muitos dos leitores leiam apenas o lide de cada matéria jornalística.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
